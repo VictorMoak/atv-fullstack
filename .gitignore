@@ -1,0 +1,31 @@
+# Dependências
+*/node_modules/
+
+# Build
+dist/
+build/
+coverage/
+
+# Variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Editores
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Cache
+.cache/
+*.tsbuildinfo
