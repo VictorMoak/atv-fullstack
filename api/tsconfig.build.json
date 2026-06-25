@@ -1,4 +1,9 @@
 {
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "ignoreDeprecations": "6.0"
+  },
   "extends": "./tsconfig.json",
   "exclude": ["node_modules", "test", "dist", "**/*spec.ts"]
 }
